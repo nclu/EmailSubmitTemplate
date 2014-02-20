@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 WebForm</title>
+  <meta name="description" content="The HTML5 WebForm">
+  <meta name="author" content="nluders@acumenllc.com">
+
+  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+    label {display:block;}
+  </style>
+</head>
+
+<body>
+  <form action="mailto:name@example.com?subject=-Subject Here-" method="post" enc >
+    <h3>Email Form for Testing </h3>
+
+    <label for="name_name">text: <input type="text" name="text_name" />
+    <label for="selection_name">
+      select: 
+      <select name="selection_name">
+        <option value="Option One">First Option</option>
+        <option value="Option Two">Second Option</option>
+      </select>
+    </label>
+    <label for="textarea_name">textarea: <textarea name="textarea_name"></textarea></label>
+    <label for="checkbox_name">checkbox: <input type="checkbox" name="checkbox_name" /></label>
+    <label for="file_name">file: <input type="file" name="file_name" /></label>
+    <label for="hidden_name">hidden: <input type="hidden" name="hidden_name" value="hidden value" /></label>
+    <label for="image_name">image: <input type="image" name="image_name" /></label>
+    <label for="number_name">number: <input type="number" name="number_name" /></label>
+    <label for="password_name">password: <input type="password" name="password_name" /></label>
+    <label for="radio_name">radio buttons: 
+      <input type="radio" name="radio_name" value="Radio One">First Radio
+      <input type="radio" name="radio_name" value="Radio Two">Second Radio
+    </label>
+    <label for="color_name">color: <input type="color" name="color_name"></label>
+    <label for="date_name">date: <input type="date" name="date_name"></label>
+    <label for="datetime_name">datetime(date and time): <input type="datetime" name="datetime_name"></label>
+    <label for="datetime-local_name">datetime-local(date and time): <input type="datetime-local" name="datetime-local_name"></label>
+    <label for="email_name">email: <input type="email" name="email_name"></label>
+    <label for="month_name">month(month and year): <input type="month" name="month_name"></label>
+    <label for="quantity_name">quantity (between 1 and 5): <input type="number" name="quantity_name" min="1" max="5"></label>
+    <label for="range_name">range: <input type="range" name="range_name" min="1" max="5"></label>
+    <label for="search_name">search: <input type="search" name="search_name"></label>
+    <label for="tel_name">tel(Telephone): <input type="tel" name="tel_name"></label>
+    <label for="time_name">time: <input type="time" name="time_name"></label>
+    <label for="url_name">url: <input type="url" name="url_name"></label>
+    <label for="week_name">week: <input type="week" name="week_name"></label>
+    
+    <label for="button_name">button: <input type="button" name="button_name" value="this button"/></label>
+    <label for="reset_name">reset: <input type="reset" name="reset_name" /></label>
+    <label for="submit_name">submit: <input type="submit" name="submit_name" /></label>
+  </form>
+  <!--<script src="js/scripts.js"></script>-->
+</body>
+</html>
